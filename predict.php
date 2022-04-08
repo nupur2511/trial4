@@ -12,7 +12,7 @@
 body{
 	background-image: url(back.jpg) no-repeat;
 	background-size: cover;
-	height: 150vh;
+	height: 100vh;
 }
 .navbar{
 	position: fixed;
@@ -23,9 +23,9 @@ body{
 	background: rgba(0,0,0,0.4);
 }
 .navbar .logo{
-	width: 50px;
-	height: 10px;
-	padding: 10px 10px;
+	width: 300px;
+	height: 50px;
+	padding: 20px 100px;
 }
 .navbar ul{
 	float: right;
@@ -147,6 +147,7 @@ body{
 	min-height: 600px;
 	text-align: left;
 	color: rgb(250, 250, 250);
+	margin-top:100px
 	
 }
 #section5{
@@ -157,14 +158,14 @@ body{
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style.css')}}"/>
     </head>
-    <body style="background-image: url('/static/images/bg5.jpg');background-repeat: no-repeat;background-size: cover;"></body>
+    <body style="background-image: url('bg6.jpg');background-repeat: no-repeat;background-size: cover;"></body>
         <div class="wrapper">
             <nav class="navbar">
                 <img class="logo" src="logo.PNG" alt="logo.PNG">
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a class="active" href="prediction.html">Prediction</a></li>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a class="active" href="predict.php">Prediction</a></li>
                    <!----- <li><a href="index.html">Login</a></li>--->
                 </ul>
             </nav>

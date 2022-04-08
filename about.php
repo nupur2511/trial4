@@ -320,7 +320,7 @@
                 <ul>
                     <li><a href="home.php">Home</a></li>
                     <li><a class="active" href="about.php">About</a></li>
-                    <li><a href="Prediction.php">Prediction</a></li>
+                    <li><a href="predict.php">Prediction</a></li>
                     <li><a href="index.php">Login</a></li>
                 </ul>
             </nav>
